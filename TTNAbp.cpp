@@ -9,15 +9,15 @@
 // LoRaWAN NwkSKey, network session key
 // This is the default Semtech key, which is used by the early prototype TTN
 // network.
-static const PROGMEM u1_t NWKSKEY[16] = { 0x23, 0xAE, 0x91, 0xD5, 0x50, 0x94, 0xE3, 0xA8, 0x65, 0x71, 0x1A, 0x20, 0x75, 0x8B, 0x41, 0xF1 };
+static const PROGMEM u1_t NWKSKEY[16] = { 0xNo };
 
 // LoRaWAN AppSKey, application session key
 // This is the default Semtech key, which is used by the early prototype TTN
 // network.
-static const u1_t PROGMEM APPSKEY[16] = { 0x06, 0x99, 0x43, 0xCC, 0x60, 0x8D, 0x70, 0x31, 0xF7, 0x16, 0xC9, 0x4F, 0x8E, 0xB7, 0x68, 0x22 };
+static const u1_t PROGMEM APPSKEY[16] = { 0xNo };
 
 // LoRaWAN end-device address (DevAddr)
-static const u4_t DEVADDR = 0x260B68A1;  // <-- Change this address for every node!
+static const u4_t DEVADDR = 0xNo;  // <-- Change this address for every node!
 
 // These callbacks are only used in over-the-air activation, so they are
 // left empty here (we cannot leave them out completely unless
