@@ -2,4 +2,4 @@
 Aaad Avans blok5/6 
 
 
-code for ttn and stuff
+Arduino code that connects the Arduino + Dragino shield to TTN
